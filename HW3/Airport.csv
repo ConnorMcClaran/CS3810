@@ -1,0 +1,172 @@
+Airport_ID,Airport_SEQ_ID,City_Name,State_Name,Code
+12954,1295403,"Long Beach, CA",California,LGB
+11292,1129202,"Denver, CO",Colorado,DEN
+14771,1477102,"San Francisco, CA",California,SFO
+11423,1142304,"Des Moines, IA",Iowa,DSM
+11315,1131502,"Dickinson, ND",North Dakota,DIK
+11503,1150303,"Eagle, CO",Colorado,EGE
+15016,1501603,"St. Louis, MO",Missouri,STL
+12544,1254403,"CONCORD, NC",North Carolina,USA
+10397,1039705,"Atlanta, GA",Georgia,ATL
+11109,1110902,"Colorado Springs, CO",Colorado,COS
+12889,1288903,"Las Vegas, NV",Nevada,LAS
+10372,1037203,"Aspen, CO",Colorado,ASE
+10800,1080003,"Burbank, CA",California,BUR
+14869,1486903,"Salt Lake City, UT",Utah,SLC
+14100,1410002,"Philadelphia, PA",Pennsylvania,PHL
+11122,1112203,"Casper, WY",Wyoming,CPR
+11433,1143302,"Detroit, MI",Michigan,DTW
+13487,1348702,"Minneapolis, MN",Minnesota,MSP
+13851,1385103,"Oklahoma City, OK",Oklahoma,OKC
+10529,1052904,"Hartford, CT",Connecticut,BDL
+13796,1379604,"Oakland, CA",California,OAK
+10558,1055803,"Scottsbluff, NE",Nebraska,BFF
+13341,1334102,"Kansas City, MO",Missouri,MKC
+11233,1123302,"Cheyenne, WY",Wyoming,CYS
+11259,1125903,"Dallas, TX",Texas,DAL
+14831,1483104,"San Jose, CA",California,SJC
+10325,1032504,"Denver, CO",Colorado,APA
+10423,1042302,"Austin, TX",Texas,AUS
+11066,1106603,"Columbus, OH",Ohio,CMH
+14792,1479201,"Sugar Land, TX",Texas,SGR
+10466,1046602,"Phoenix, AZ",Arizona,AZA
+10747,1074702,"Brownsville, TX",Texas,BRO
+11563,1156303,"Wendover, UT",Utah,ENV
+11921,1192102,"Grand Junction, CO",Colorado,GJT
+14576,1457604,"Rochester, NY",New York,ROC
+15370,1537002,"Tulsa, OK",Oklahoma,TUL
+11376,1137601,"Chicago, IL",Illinois,DPA
+14570,1457002,"Reno, NV",Nevada,RNO
+11719,1171902,"Fort Collins/Loveland, CO",Colorado,FNL
+10590,1059004,"Bullhead City, AZ",Arizona,IFP
+13502,1350202,"Montrose/Delta, CO",Colorado,MTJ
+14288,1428803,"Pueblo, CO",Colorado,PUB
+11840,1184002,"Gadsden, AL",Alabama,GAD
+11193,1119302,"Cincinnati, OH",Kentucky,CVG
+14747,1474703,"Seattle, WA",Washington,SEA
+11283,1128302,"Dodge City, KS",Kansas,DDC
+11468,1146802,"Kearney, NE",Nebraska,EAR
+12899,1289902,"North Platte, NE",Nebraska,LBF
+12902,1290203,"Liberal, KS",Kansas,LBL
+12389,1238902,"Williston, ND",North Dakota,ISN
+13204,1320402,"Orlando, FL",Florida,MCO
+13930,1393004,"Chicago, IL",Illinois,ORD
+14492,1449202,"Raleigh/Durham, NC",North Carolina,RDU
+11986,1198603,"Grand Rapids, MI",Michigan,GRR
+11097,1109702,"Cody, WY",Wyoming,COD
+11278,1127803,"Washington, DC",Virginia,DCA
+11298,1129804,"Dallas/Fort Worth, TX",Texas,DFW
+12266,1226603,"Houston, TX",Texas,IAH
+12441,1244102,"Jackson, WY",Wyoming,JAC
+12888,1288802,"Laramie, WY",Wyoming,LAR
+12892,1289205,"Los Angeles, CA",California,LAX
+12992,1299204,"Little Rock, AR",Arkansas,LIT
+13264,1326403,"Medford, OR",Oregon,MFR
+13486,1348602,"Missoula, MT",Montana,MSO
+14057,1405702,"Portland, OR",Oregon,PDX
+14252,1425202,"Pasco/Kennewick/Richland, WA",Washington,PSC
+14679,1467903,"San Diego, CA",California,SAN
+14683,1468303,"San Antonio, TX",Texas,SAT
+14794,1479403,"St. George, UT",Utah,SGU
+14893,1489302,"Sacramento, CA",California,SMF
+14908,1490803,"Santa Ana, CA",California,SNA
+10140,1014003,"Albuquerque, NM",New Mexico,ABQ
+10721,1072102,"Boston, MA",Massachusetts,BOS
+10849,1084903,"Bozeman, MT",Montana,BZN
+12264,1226402,"Washington, DC",Virginia,IAD
+13198,1319801,"Kansas City, MO",Missouri,MCI
+14262,1426204,"Palm Springs, CA",California,PSP
+14524,1452401,"Richmond, VA",Virginia,RIC
+14689,1468902,"Santa Barbara, CA",California,SBA
+10994,1099402,"Charleston, SC",South Carolina,CHS
+11042,1104203,"Cleveland, OH",Ohio,CLE
+13495,1349503,"New Orleans, LA",Louisiana,MSY
+14122,1412202,"Pittsburgh, PA",Pennsylvania,PIT
+14635,1463502,"Fort Myers, FL",Florida,RSW
+12278,1227803,"Wichita, KS",Kansas,ICT
+14730,1473003,"Louisville, KY",Kentucky,SDF
+12339,1233904,"Indianapolis, IN",Indiana,IND
+14107,1410702,"Phoenix, AZ",Arizona,PHX
+15304,1530402,"Tampa, FL",Florida,TPA
+15412,1541203,"Knoxville, TN",Tennessee,TYS
+13244,1324402,"Memphis, TN",Tennessee,MEM
+11413,1141304,"Durango, CO",Colorado,DRO
+14877,1487704,"Salina, KS",Kansas,SLN
+11638,1163805,"Fresno, CA",California,FAT
+12003,1200302,"Great Falls, MT",Montana,GTF
+15919,1591902,"Fayetteville, AR",Arkansas,XNA
+11603,1160302,"Eugene, OR",Oregon,EUG
+11618,1161802,"Newark, NJ",New Jersey,EWR
+11884,1188402,"Spokane, WA",Washington,GEG
+15376,1537602,"Tucson, AZ",Arizona,TUS
+10713,1071302,"Boise, ID",Idaho,BOI
+13485,1348502,"Madison, WI",Wisconsin,MSN
+13367,1336703,"Moline, IL",Illinois,MLI
+10279,1027903,"Amarillo, TX",Texas,AMA
+12896,1289605,"Lubbock, TX",Texas,LBB
+13891,1389101,"Ontario, CA",California,ONT
+14457,1445702,"Rapid City, SD",South Dakota,RAP
+10821,1082104,"Baltimore, MD",Maryland,BWI
+11057,1105703,"Charlotte, NC",North Carolina,CLT
+10257,1025702,"Albany, NY",New York,ALB
+13871,1387102,"Omaha, NE",Nebraska,OMA
+13931,1393102,"Norfolk, VA",Virginia,ORF
+10599,1059904,"Birmingham, AL",Alabama,BHM
+11003,1100303,"Cedar Rapids/Iowa City, IA",Iowa,CID
+10620,1062002,"Billings, MT",Montana,BIL
+14814,1481402,"Shreveport, LA",Louisiana,SHV
+14783,1478302,"Springfield, MO",Missouri,SGF
+11648,1164802,"Kalispell, MT",Montana,FCA
+12982,1298202,"Lihue, HI",Hawaii,LIH
+13342,1334205,"Milwaukee, WI",Wisconsin,MKE
+11540,1154003,"El Paso, TX",Texas,ELP
+11697,1169704,"Fort Lauderdale, FL",Florida,FLL
+10693,1069302,"Nashville, TN",Tennessee,BNA
+12191,1219102,"Houston, TX",Texas,HOU
+13433,1343302,"Minot, ND",North Dakota,MOT
+13964,1396403,"North Bend/Coos Bay, OR",Oregon,OTH
+14489,1448902,"Bend/Redmond, OR",Oregon,RDM
+12451,1245102,"Jacksonville, FL",Florida,JAX
+10561,1056103,"Bakersfield, CA",California,BFL
+14193,1419304,"Pensacola, FL",Florida,PNS
+11775,1177502,"Sioux Falls, SD",South Dakota,FSD
+12012,1201203,"Gunnison, CO",Colorado,GUC
+12094,1209402,"Hayden, CO",Colorado,HDN
+10643,1064301,"Branson, MO",Missouri,BKG
+15177,1517702,"Telluride, CO",Colorado,TEX
+10950,1095002,"Cortez, CO",Colorado,CEZ
+12478,1247803,"New York, NY",New York,JFK
+12953,1295302,"New York, NY",New York,LGA
+11995,1199502,"Greensboro/High Point, NC",North Carolina,GSO
+14512,1451202,"Rockford, IL",Illinois,RFD
+10194,1019403,"Dallas/Fort Worth, TX",Texas,AFW
+11267,1126702,"Dayton, OH",Ohio,DAY
+11711,1171102,"Farmington, NM",New Mexico,FMN
+11447,1144703,"Devils Lake, ND",North Dakota,DVL
+13029,1302902,"Lincoln, NE",Nebraska,LNK
+10627,1062702,"Bismarck/Mandan, ND",North Dakota,BIS
+14698,1469802,"San Luis Obispo, CA",California,SBP
+13158,1315803,"Midland/Odessa, TX",Texas,MAF
+12758,1275803,"Kona, HI",Hawaii,KOA
+13830,1383002,"Kahului, HI",Hawaii,OGG
+10272,1027203,"Alamosa, CO",Colorado,ALS
+13303,1330303,"Miami, FL",Florida,MIA
+12156,1215603,"Helena, MT",Montana,HLN
+12519,1251902,"Jamestown, ND",North Dakota,JMS
+12173,1217302,"Honolulu, HI",Hawaii,HNL
+12217,1221702,"Huntsville, AL",Alabama,HSV
+11637,1163703,"Fargo, ND",North Dakota,FAR
+14534,1453402,"Riverton/Lander, WY",Wyoming,RIW
+10299,1029904,"Anchorage, AK",Alaska,ANC
+14120,1412002,"Pierre, SD",South Dakota,PIR
+12255,1225502,"Hays, KS",Kansas,HYS
+10221,1022103,"Alliance, NE",Nebraska,AIA
+10925,1092502,"Chadron, NE",Nebraska,CDR
+13200,1320002,"McCook, NE",Nebraska,MCK
+15582,1558202,"Vernal, UT",Utah,VEL
+11865,1186502,"Gillette, WY",Wyoming,GCC
+14543,1454302,"Rock Springs, WY",Wyoming,RKS
+11092,1109202,"Moab, UT",Utah,CNY
+14674,1467402,"Santa Fe, NM",New Mexico,SAF
+12280,1228002,"Idaho Falls, ID",Idaho,IDA
+13232,1323202,"Chicago, IL",Illinois,MDW
