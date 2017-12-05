@@ -1,4 +1,6 @@
 import math
+import pip
+pip.main(['install','psycopg2'])
 import psycopg2
 
 
@@ -21,7 +23,7 @@ except ValueError:
 try:
     if '@' in Email :
         print('Email accepted')
-except ValueError:
+except:
      print('Invalid Email entered')
     
 #Create customer in database
@@ -53,7 +55,7 @@ def input_customer(First_name,Last_name,Street,City,Country,Area_code,Local_numb
     return Customer_id
 
 input_customer(First_name,Last_name,Street,City,Country,Area_code,Local_number,Email)
-
+OriginCitys = ['Toronto','NewYork','Chicago','London','Edinburgh','Paris','Nice','Montreal']
 TorontoDest = ['New York','Chicago','London','Montreal','Edinburgh']
 NewYorkDest = ['Chicago','Toronto']
 ChicagoDest = ['New York','Toronto']
@@ -63,7 +65,7 @@ ParisDest = ['London','Edinburgh','Nice']
 NiceDest = ['London','Edinburgh','Paris']
 MontrealDest = ['Toronto','London','Edinburgh']
 
-               
+print ('Avaiable Origin Cities:',OriginCitys)               
 Origin = input('What is your origin City:')
 attempts  = 0 
 while attempts < 3:
@@ -163,11 +165,55 @@ while attempts < 3:
             print('Invalid City Select from avaiable destinations')
             attempts = attempts + 1
             
+#Create Reservation
+def input_reservation(Origin,Destination):
+    sql = """ SELECT * FOROM Flights WHERE Origin = Origin AND Destination = Destination"""
+    sql2 = """ INSERT INTO Reservations (Customer_name,Flight_number,Date,Origin,Destination,Departure_time,Arrival_time)
+               VALUES (%s)"""
+    conn = None
 
-            
+    try:
 
-            
+        connect = psycopg2.connect("dbname = postgres user = postgres")
+
+        cur = conn.cursor()
+
+        cur.execute(sql)
+        flight = cursor.fetchone()
+        fullname = First_name + Last_name
+        cur.execute(sql2,(flight))
+        conn.commit()
     
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print('No connection')
+
+    finally:
+        if conn is not None:
+            conn.close()
+
+input_reservation(Origin,dest)
+
+
+print("""-------------------------------------
+            Flight Reservation
+         -------------------------------------""")   
+       
+print('Date:',Date)
+print('Departure Time:',Departure_time)
+print('Flight No.',Flight_number)
+print('Origin:',Origin)
+print('Destination:',Destination)
+print('Arrival Time:',Arrival_time)
+
+print("""------------------------------------------
+            Customer Information
+            ---------------------------------------""")
+
+print('Name:' ,First_name,Last_name)
+print('Email:',Email)
+
+
     
     
           

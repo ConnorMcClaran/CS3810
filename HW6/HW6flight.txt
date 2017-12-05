@@ -1,0 +1,14 @@
+-------------------------------------
+            Flight Reservation
+         -------------------------------------
+Date: 12/3/17
+Departure Time: 10:00am
+Flight No. 843
+Origin: Toronto
+Destination: London
+Arrival Time: 2:00pm
+------------------------------------------
+            Customer Information
+            ---------------------------------------
+Name: Connor McClaran
+Email: cmcclaran62@gmail.com
