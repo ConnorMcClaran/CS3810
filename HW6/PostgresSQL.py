@@ -168,7 +168,7 @@ while attempts < 3:
 #Create Reservation
 def input_reservation(Origin,Destination):
     sql = """ SELECT * FOROM Flights WHERE Origin = Origin AND Destination = Destination"""
-    sql2 = """ INSERT INTO Reservations (Reservation_id,Customer_name,Flight_number,Date,Origin,Destination,Departure_time,Arrival_time)
+    sql2 = """ INSERT INTO Reservations (Customer_name,Flight_number,Date,Origin,Destination,Departure_time,Arrival_time)
                VALUES (%s)"""
     conn = None
 
@@ -186,7 +186,7 @@ def input_reservation(Origin,Destination):
         Departure_time = cur.fetchone()[5]
         Arrival_time = cur.fetchone()[7]
         Customer_name = First_name + Last_name
-        cur.execute(sql2,(ResID,Customer_name,Flight_number,Date,Origin,Destination,Departure_time,Arrival_time))
+        cur.execute(sql2,(Customer_name,Flight_number,Date,Origin,Destination,Departure_time,Arrival_time))
         conn.commit()
     
         cur.close()
