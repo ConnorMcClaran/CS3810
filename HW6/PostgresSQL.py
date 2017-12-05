@@ -34,7 +34,7 @@ def input_customer(First_name,Last_name,Street,City,Country,Area_code,Local_numb
     Customer_id = None
     try:
 
-        conn = psycopg2.connect("dbname = postgres user = postgres")
+        conn = psycopg2.connect("dbname = postgres user = postgres password = postgres")
 
         cur = conn.cursor()
 
@@ -168,20 +168,25 @@ while attempts < 3:
 #Create Reservation
 def input_reservation(Origin,Destination):
     sql = """ SELECT * FOROM Flights WHERE Origin = Origin AND Destination = Destination"""
-    sql2 = """ INSERT INTO Reservations (Customer_name,Flight_number,Date,Origin,Destination,Departure_time,Arrival_time)
+    sql2 = """ INSERT INTO Reservations (Reservation_id,Customer_name,Flight_number,Date,Origin,Destination,Departure_time,Arrival_time)
                VALUES (%s)"""
     conn = None
 
     try:
 
-        connect = psycopg2.connect("dbname = postgres user = postgres")
+        connect = psycopg2.connect("dbname = postgres user = postgres password = postgres")
 
         cur = conn.cursor()
 
         cur.execute(sql)
-        flight = cursor.fetchone()
-        fullname = First_name + Last_name
-        cur.execute(sql2,(flight))
+        Flight_number = cur.fetchone()[1]
+        Origin = cur.fetchone()[2]
+        Destination = cur.fetchone()[3]
+        Departure_date = cur.fetchone()[4]
+        Departure_time = cur.fetchone()[5]
+        Arrival_time = cur.fetchone()[7]
+        Customer_name = First_name + Last_name
+        cur.execute(sql2,(ResID,Customer_name,Flight_number,Date,Origin,Destination,Departure_time,Arrival_time))
         conn.commit()
     
         cur.close()
@@ -199,7 +204,7 @@ print("""-------------------------------------
             Flight Reservation
          -------------------------------------""")   
        
-print('Date:',Date)
+print('Date:',Departure_date)
 print('Departure Time:',Departure_time)
 print('Flight No.',Flight_number)
 print('Origin:',Origin)
