@@ -1,0 +1,51 @@
+
+EMPLOYEE INFORMATION    
+
+                     Obs    name     family       status     gender    age
+
+                       1    Abe                  Employee      m        37
+                       2             Amira       Dependen      f        12
+                       3             Aki         Dependen      m        21
+                       4             Alina       Dependen      f         1
+                       5    Bill                 Employee      m        42
+                       6             Babushka    Dependen      f        44
+                       7             Brenda      Dependen      f        10
+                       8    Clara                Employee      f        50
+                       9             Charles     Dependen      m        48
+                      10             Cafka       Dependen      m        12
+                      11             Celia       Dependen      f        10
+                      12             Combo       Dependen      m         6
+                      13             Crumba      Dependen      f         6
+                      14    Don                  Employee      m        33
+                      15             Dana        Dependen      f        30
+                      16             David       Dependen      m         8
+                      17             Danny       Dependen      m         5
+                      18             Dina        Dependen      f         2
+                      19    Elka                 Employee      f        54
+                      20             Eli         Dependen      m        60
+                      21             Estella     Dependen      f        20
+
+
+
+
+
+
+
+
+
+SPENDING TABLE      
+
+                                 Obs    lname          totals
+
+                                  1     Alston      989722.99
+                                  2     Barbezet      8253.51
+                                  3     Derwood      12424.53
+                                  4     Elliott      31378.30
+                                  5     Frankel       3762.78
+                                  6     Girard        2651.00
+                                  7     Howard        1774.12
+                                  8     James        45674.98
+                                  9     McMurphy       907.85
+
+                                           
+
