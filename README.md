@@ -1,3 +1,3 @@
-# CS3810
+# CS3810 Database Systems
 
 Homework for CS3810 
